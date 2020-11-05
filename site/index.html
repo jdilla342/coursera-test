@@ -5,42 +5,85 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1.0">
         <meta http-equiv="X-UA-Compatible" content = "ie=edge">
         <title>Hello Coursera!</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                
+            }
+            body {
+                background-color: gray;
+            }
+            #box {
+                background-color: blue;
+
+            }
+            #content {
+                background-color: #90EE90 
+            }
+            #outbox {
+                background-color: beige;
+                padding: 10px 10px 10px 10px;
+                border: 3px solid black;
+                margin: 40px;
+            }
+            #outcontent {
+                background-color: bisque;
+                padding: 10px 10px 10px 10px;
+                border: 3px solid black;
+                margin: 40px;
+            }
+
+        </style>
     </head>
 
     <body>
         <header>
             <h1>Hello World!</h1>
         </header>
-        <h2>Unordered List:</h2>
-        <div>
-            My typical shopping list:
-            <ul>
-                <li>milk</li>
-                <li>donuts</li>
-                <li>Cookies</li>
+        <div id="outbox">
+            <h2>Unordered List:</h2>
+            <div id="box">
+                My typical shopping list:
                 <ul>
-                    <li>Chocolate</li>
-                    <li>Sugar</li>
-                    <li>Butter</li>
+                    <li>milk</li>
+                    <li>donuts</li>
+                    <li>Cookies</li>
+                    <ul>
+                        <li>Chocolate</li>
+                        <li>Sugar</li>
+                        <li>Butter</li>
+                    </ul>
+                    <li>Chicken</li>
                 </ul>
-                <li>Chicken</li>
-            </ul>
+            </div >
         </div>
-        <h2>Ordered List:</h2>
-        <div>Order to Eat Cookies:</div>
-        <ol>
-            <li>open box</li>
-            <li>take out cookie</li>
-            <li>make a double oreo
+        <div id="outcontent">
+            <h2>Ordered List:</h2>
+            <div id="content">
+                Order to Eat Cookies:
                 <ol>
-                    <li>peel off the top part</li>
-                    <li>place another cookie in the middle</li>
-                    <li>put back on the top part</li>
+                    <li>open box</li>
+                    <li>take out cookie</li>
+                    <li>make a double oreo
+                        <ol>
+                            <li>peel off the top part</li>
+                            <li>place another cookie in the middle</li>
+                            <li>put back on the top part</li>
+                        </ol>
+                    </li>
+                    <li>Enjoy!</li>
                 </ol>
-            </li>
-            <li>Enjoy!</li>
-        </ol>
+            </div>
+        </div>
         <h1>Dont be afraid to be &lt;than 100% success &amp &gt;than:</h1>
+
+        <section>
+            <div>We can link to a file in the same directory as this HTML file like this:</div>
+            <a href="same-directory.html" title= "same dir link">
+                <div>DIV linking to a file in the same directory</div>
+            </a>
+        </section>
 
         <footer>JDolan &copy; Copyright 2020</footer>
     </body>

@@ -1,0 +1,49 @@
+div {
+    font-size: 20px;
+    width: auto;
+}
+h1 {
+    color: aquamarine;
+    font-size: 36px;
+    text-align: center;
+}
+
+header li{
+    list-style: none;
+    display: inline-block;
+}
+a:link, a:visited {
+    text-decoration: none;
+    background-color: gold;
+    border: 1px solid blue;
+    color:black;
+    display: block;
+    width: auto;
+    text-align: center;
+    margin-bottom: 1px;
+}
+a:hover, a:active {
+    background-color: red;
+    color: purple;
+}
+section li:nth-child(5){
+    font-size: 12px;
+}
+
+section:nth-child(odd){
+    background-color: red;
+    color: black;
+}
+section:nth-child(odd):hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+section:nth-child(even){
+    background-color: beige;
+    color: black;
+}
+
+section:nth-child(even):hover {
+    background-color:  green;
+    cursor: pointer;
+}
